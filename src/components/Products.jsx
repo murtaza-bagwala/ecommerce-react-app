@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import useFetch from '../services/useFetch';
