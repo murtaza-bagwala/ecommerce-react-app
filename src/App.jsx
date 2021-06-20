@@ -10,15 +10,15 @@ import Details from './components/Details';
 import Login from './components/Login';
 
 export default function App() {
-  const [token, setToken] = useState();
+  // const [token, setToken] = useState();
 
-  if (!token) {
-    return <Login setToken={setToken} />;
-  }
+  // if (!token) {
+  //   return <Login setToken={setToken} />;
+  // }
 
-  if (token) {
-    sessionStorage.setItem('token', token);
-  }
+  // if (token) {
+  //   sessionStorage.setItem('token', token);
+  // }
 
   return (
     <>

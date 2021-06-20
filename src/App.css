@@ -32,6 +32,12 @@ header img {
 	max-height: 100px;
 }
 
+header div {
+	display: flex;
+	align-items: center;
+	padding-left: 900px;
+}
+
 nav {
 	display: flex;
 	align-items: center;
@@ -71,7 +77,6 @@ header li {
 }
 
 .product {
-	display: flex;
 	align-items: flex-end;
 	max-width: 350px;
 	text-align: center;

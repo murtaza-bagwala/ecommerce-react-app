@@ -1,3 +1,8 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-mixed-spaces-and-tabs */
+/* eslint-disable no-tabs */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 
 import Avatar from '@material-ui/core/Avatar';
@@ -120,7 +125,6 @@ export default function SignIn({ setToken }) {
       </Container>
     );
   }
-  debugger;
 
   return (
     <Container component="main" maxWidth="xs">

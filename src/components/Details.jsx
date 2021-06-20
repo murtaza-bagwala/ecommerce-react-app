@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { useParams } from 'react-router';
 import useFetch from '../services/useFetch';
